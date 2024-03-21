@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun sendDataToServer() {
 
-        val title = findViewById<EditText>(R.id.titleEditText).text.toString().toInt()
+        val  title = findViewById<EditText>(R.id.titleEditText).text.toString().toInt()
         val price = findViewById<EditText>(R.id.priceEditText).text.toString()
         val description = findViewById<EditText>(R.id.descriptionEditText).text.toString()
         val categoryId = findViewById<EditText>(R.id.categoryIdEditText).text.toString()
