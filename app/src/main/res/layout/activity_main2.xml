@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title: "/>
+
+    <TextView
+        android:id="@+id/priceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price: "/>
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description: "/>
+
+    <TextView
+        android:id="@+id/categoryIdTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category ID: "/>
+
+    <TextView
+        android:id="@+id/categoryNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category Name: "/>
+
+    <TextView
+        android:id="@+id/categoryImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category Image: "/>
+
+    <TextView
+        android:id="@+id/categoryCreationAtTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category Creation Date: "/>
+
+    <TextView
+        android:id="@+id/categoryUpdatedAtTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category Updated Date: "/>
+
+    <TextView
+        android:id="@+id/productIdTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product ID: "/>
+
+    <TextView
+        android:id="@+id/creationAtTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Creation Date: "/>
+
+    <TextView
+        android:id="@+id/updatedAtTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Updated Date: "/>
+
+    <TextView
+        android:id="@+id/imageUrlTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image URL: "/>
+
+</LinearLayout>
